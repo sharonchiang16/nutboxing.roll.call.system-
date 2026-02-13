@@ -213,7 +213,7 @@
 
             // [購買課程]
             const PurchaseFormPage = () => {
-                const price = identityType === 'ntu' ? 1200 : 1800;
+                const price = identityType === 'ntu' ? 3000 : 3500;
                 return (
                     <div className="p-6 animate-slide-in">
                         <BackButton to="purchase_select" />
@@ -251,7 +251,7 @@
                     <h2 className="text-2xl font-bold text-slate-800 mb-4 border-l-4 border-slate-800 pl-3">單堂體驗課</h2>
                     <div className="bg-orange-50 border border-orange-200 rounded-lg p-4 mb-6">
                         <h3 className="font-bold text-orange-800 flex items-center mb-2"><AlertCircle className="mr-2" /> 匯款資訊</h3>
-                        <p className="text-sm text-orange-900 mb-2">費用：<span className="font-bold text-lg">$150 / 堂</span></p>
+                        <p className="text-sm text-orange-900 mb-2">費用：<span className="font-bold text-lg">$500 / 堂</span></p>
                         <div className="bg-white p-3 rounded border border-orange-100 flex justify-between items-center cursor-pointer active:bg-gray-50" onClick={() => copyToClipboard('88660930767982')}>
                             <div><span className="text-xs text-gray-500 block">將來銀行 (823)</span><span className="font-mono font-bold text-lg">88660930767982</span></div>
                             <Copy className="text-gray-400" />
